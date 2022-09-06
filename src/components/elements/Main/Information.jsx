@@ -29,7 +29,7 @@ const Information = ({ movie }) => {
           <span>Play</span>
         </Button>
         <Button cb={addToFavorites}>
-          <i className='bx bx-play'></i>
+          <i className='bx bx-plus'></i>
           <span>My list</span>
         </Button>
       </div>
