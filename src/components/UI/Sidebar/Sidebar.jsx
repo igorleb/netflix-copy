@@ -1,9 +1,22 @@
 import styles from './Sidebar.module.scss';
 
-const Sidebar = () => {
-  return (
-    <div>Sidebar</div>
-  )
-}
+const menu = ['Popular', 'TV Shows', 'Films', 'My list'];
 
-export default Sidebar
+const Sidebar = ({ isSidebarShow }, setIsSidebarShow) => {
+  return (
+    <div className={styles.sidebar}>
+      <button onClick={() => setIsSidebarShow(true)}>
+        <i className={`bx bx-${isSidebarShow ? 'x' : 'borer-left'}`}></i>
+      </button>
+      <ul>
+        {menu.map(title => (
+          <li>
+            <a href={title}>{title}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default Sidebar;

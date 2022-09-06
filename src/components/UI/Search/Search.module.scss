@@ -1,4 +1,4 @@
-$gray: #9b9a97;
+@import '../../../variables';
 
 .search {
   display: flex;
@@ -19,6 +19,6 @@ $gray: #9b9a97;
     outline: none;
     color: #fff;
     margin-left: 0.5rem;
-    border: none
+    border: none;
   }
 }
