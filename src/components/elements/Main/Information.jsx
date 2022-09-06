@@ -25,12 +25,12 @@ const Information = ({ movie }) => {
       <div className={styles.description}>{movie.description}</div>
       <div className={styles.buttons}>
         <Button cb={() => console.log('video is open')}>
-          <i className='bx bx-play'></i>
+          <i className='bx bx-play' style={{ color: '#c62e21' }}></i>
           <span>Play</span>
         </Button>
         <Button cb={addToFavorites}>
           <i className='bx bx-play'></i>
-          <span>+ My list</span>
+          <span>My list</span>
         </Button>
       </div>
     </div>
