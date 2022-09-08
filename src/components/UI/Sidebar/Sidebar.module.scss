@@ -1,8 +1,15 @@
 @import '../../../variables';
 
 .sidebar {
+  > button {
+    border-color: transparent;
+    border: none;
+    color: $gray;
+    font-size: 30px;
+  }
   ul {
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
     li {
       margin-bottom: 0.5rem;
       a {
