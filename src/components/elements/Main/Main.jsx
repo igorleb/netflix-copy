@@ -8,12 +8,12 @@ import styles from './Main.module.scss';
 const Main = () => {
   const [isSidebarShow, setIsSidebarShow] = useState(false);
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Sidebar
         isSidebarShow={isSidebarShow}
         setIsSidebarShow={setIsSidebarShow}
       />
-      <div
+      <div className={styles.main}
         style={{
           backgroundImage: `url(${DATA[0].mainImage})`,
           width: isSidebarShow ? 70 : 85,
