@@ -8,9 +8,9 @@ const Sidebar = ({ isSidebarShow }, setIsSidebarShow) => {
       <button onClick={() => setIsSidebarShow(true)}>
         <i className={`bx bx-${isSidebarShow ? 'x' : 'borer-left'}`}></i>
       </button>
-      <ul>
+      <ul className={isSidebarShow ? styles.show : ''}>
         {menu.map(title => (
-          <li>
+          <li key={title}>
             <a href={title}>{title}</a>
           </li>
         ))}

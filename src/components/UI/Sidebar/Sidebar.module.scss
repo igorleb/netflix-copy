@@ -10,6 +10,12 @@
   ul {
     list-style-type: none;
     padding: 0;
+    display: none;
+    animation: opacity 0.4s;
+
+    &.show {
+      display: block;
+    }
     li {
       margin-bottom: 0.5rem;
       a {
