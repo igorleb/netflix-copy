@@ -7,6 +7,8 @@ import styles from './Main.module.scss';
 
 const Main = () => {
   const [isSidebarShow, setIsSidebarShow] = useState(false);
+  const [activeTab, setActiveTab] = useState(false);
+  
   return (
     <div className={styles.wrapper}>
       <Sidebar
@@ -19,9 +21,9 @@ const Main = () => {
           backgroundImage: `url(${DATA[0].mainImage})`,
           width: isSidebarShow ? '85%' : '90%',
         }}
-      >
+      > 
         <Information movie={DATA[0]} />
-        <BottomNavigation />
+        <BottomNavigation activeTab={activeTab} setActiveTab={setActiveTab}/>
       </div>
     </div>
   );
