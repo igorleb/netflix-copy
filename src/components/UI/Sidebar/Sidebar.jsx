@@ -6,7 +6,7 @@ const Sidebar = ({ isSidebarShow, setIsSidebarShow }) => {
   return (
     <div
       className={styles.sidebar}
-      style={{ width: isSidebarShow ? '30%' : '15%' }}
+      style={{ width: isSidebarShow ? '15%' : '10%' }}
     >
       <button onClick={() => setIsSidebarShow(!isSidebarShow)}>
         <i className={`bx bx-${isSidebarShow ? 'x' : 'borer-left'}`}></i>
