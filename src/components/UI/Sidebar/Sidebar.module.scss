@@ -2,10 +2,12 @@
 
 .sidebar {
   > button {
+    background-color: #0f1011;
     border-color: transparent;
     border: none;
     color: $gray;
     font-size: 30px;
+    margin-left: 6rem;
   }
   ul {
     list-style-type: none;
