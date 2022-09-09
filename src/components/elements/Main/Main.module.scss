@@ -13,8 +13,8 @@
 
     &:before {
       content: '';
-      background-image: linear-gradient(to right, #000, transparent);
-      width: 100%;
+      background-image: linear-gradient(to right, #0f1011, transparent);
+      width: 150%;
       height: 100%;
       position: absolute;
       top: 0;
@@ -26,6 +26,7 @@
     position: relative;
     z-index: 1;
     width: 50%;
+    padding: 4rem 0 4rem 1rem;
 
     .additional {
       display: flex;

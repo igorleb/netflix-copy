@@ -13,7 +13,12 @@ const Information = ({ movie }) => {
 
   return (
     <div className={styles.info}>
-      <img src={movie.logo} alt={movie.name} width='200' />
+      <img
+        src={movie.logo}
+        alt={movie.name}
+        width='200'
+        style={{ opacity: 0.7 }}
+      />
 
       <div className={styles.additional}>
         <span>{movie.year}</span>
