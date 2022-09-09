@@ -13,10 +13,11 @@ const Main = () => {
         isSidebarShow={isSidebarShow}
         setIsSidebarShow={setIsSidebarShow}
       />
-      <div className={styles.main}
+      <div
+        className={styles.main}
         style={{
           backgroundImage: `url(${DATA[0].mainImage})`,
-          width: isSidebarShow ? 70 : 85,
+          width: isSidebarShow ? '70%' : '85%',
         }}
       >
         <Information movie={DATA[0]} />
