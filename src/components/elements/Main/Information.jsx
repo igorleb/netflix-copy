@@ -22,7 +22,7 @@ const Information = ({ movie }) => {
 
       <div className={styles.additional}>
         <span>{movie.year}</span>
-        <span>{movie.limitAge}</span>
+        <span className={styles.limitAge}>{movie.limitAge} </span>
         <span>{movie.rating}</span>
         <span>{movie.duration}</span>
       </div>
