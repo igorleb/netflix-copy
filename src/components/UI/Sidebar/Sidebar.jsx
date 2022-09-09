@@ -8,7 +8,7 @@ const Sidebar = ({ isSidebarShow, setIsSidebarShow }) => {
       className={styles.sidebar}
       style={{ width: isSidebarShow ? '30%' : '15%' }}
     >
-      <button onClick={() => setIsSidebarShow(true)}>
+      <button onClick={() => setIsSidebarShow(!isSidebarShow)}>
         <i className={`bx bx-${isSidebarShow ? 'x' : 'borer-left'}`}></i>
       </button>
       <ul className={isSidebarShow ? styles.show : ''}>
