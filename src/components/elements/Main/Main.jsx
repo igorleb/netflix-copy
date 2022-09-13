@@ -7,7 +7,7 @@ import styles from './Main.module.scss';
 
 const Main = () => {
   const [isSidebarShow, setIsSidebarShow] = useState(false);
-  const [activeTab, setActiveTab] = useState(false);
+  const [activeTab, setActiveTab] = useState(1);
   
   return (
     <div className={styles.wrapper}>
