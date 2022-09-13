@@ -9,7 +9,9 @@ const Sidebar = ({ isSidebarShow, setIsSidebarShow }) => {
       style={{ width: isSidebarShow ? '15%' : '10%' }}
     >
       <button onClick={() => setIsSidebarShow(!isSidebarShow)}>
-        <i className={`bx bx-${isSidebarShow ? 'x' : 'border-left'}`}></i>
+        <i
+          className={`bx bx-${isSidebarShow ? 'x' : 'bx bx-menu-alt-left'}`}
+        ></i>
       </button>
       <ul className={isSidebarShow ? styles.show : ''}>
         {menu.map(title => (
