@@ -18,6 +18,7 @@ const Episodes = () => {
       autoplay: 0,
     },
   };
+
   return (
     <div className={styles.cards}>
       <div className={styles.cardMovies}>

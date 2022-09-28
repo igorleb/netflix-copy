@@ -1,19 +1,47 @@
-.slider {
+@import '../../../variables';
+
+.cards {
   display: flex;
   position: relative;
-  width: 100%;
-  height: 90%;
-  padding: 1rem 0 3rem 1rem;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 4rem 1rem;
   background-color: black;
+  margin: 0 auto;
 
-  .sliderImg {
+  .cardMovies {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background-color: black;
 
-    > img {
-      margin: 0 2rem 0 0;
-      padding: 2rem 1rem 2rem 1rem;
+    .movies {
+      display: flex;
+      position: relative;
+      width: 50%;
+      margin: 0 1rem 0 1rem;
+
+      .youtube {
+        display: none;
+      }
+
+      .movieBtn {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: $gray;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 100%;
+      }
+
+      > img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
