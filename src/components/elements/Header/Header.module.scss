@@ -1,15 +1,30 @@
+@import '../../../styles/media';
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
+  @include media(mobile) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px 10px 20px 10px;
+  }
 
   > div:first-child {
     display: flex;
     align-items: center;
+    @include media(mobile) {
+      display: flex;
+      flex-direction: column;
+    }
     > a {
       display: flex;
       align-items: center;
+      @include media(mobile) {
+        margin-bottom: 30px;
+      }
     }
   }
 
@@ -37,6 +52,10 @@
   .profile-wrapper {
     display: flex;
     align-items: center;
+    @include media(mobile) {
+      display: flex;
+      align-items: flex-end;
+    }
   }
 
   .profile {
