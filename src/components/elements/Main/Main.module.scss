@@ -1,9 +1,16 @@
 @import '../../../variables';
+@import '../../../styles/media';
 
 .wrapper {
   position: relative;
   display: flex;
-  
+  @include media(mobile) {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1 auto;
+  }
 
   .main {
     background-size: cover;
