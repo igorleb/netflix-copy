@@ -53,6 +53,9 @@
         border: 1px solid $gray;
         border-radius: 5px;
       }
+      @include media(tablet) {
+        white-space: nowrap;
+      }
 
       > span {
         margin-right: 1rem;

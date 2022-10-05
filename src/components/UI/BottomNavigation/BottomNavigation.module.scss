@@ -25,6 +25,9 @@
       margin-left: 8px;
       font-size: 15px;
     }
+    @include media(tablet) {
+      font-size: 20px;
+    }
 
     &.active {
       border-color: #c62e21;

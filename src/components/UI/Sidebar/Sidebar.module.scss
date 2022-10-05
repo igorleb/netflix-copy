@@ -17,6 +17,9 @@
       margin-top: 0rem;
       cursor: pointer;
     }
+    @include media(tablet) {
+      margin-left: 12px;
+    }
   }
   ul {
     list-style-type: none;
