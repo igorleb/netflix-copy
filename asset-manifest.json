@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/netflix-copy/static/css/main.70addd70.css",
+    "main.js": "/netflix-copy/static/js/main.8bd24b1a.js",
+    "static/media/black_widow.webp": "/netflix-copy/static/media/black_widow.3819049cb988bc8a2583.webp",
+    "static/media/bg.jpg": "/netflix-copy/static/media/bg.933fc2923bf4d9541e92.jpg",
+    "static/media/iron_man.webp": "/netflix-copy/static/media/iron_man.c70e7865e67920ab70f1.webp",
+    "static/media/eternals.webp": "/netflix-copy/static/media/eternals.7e2fc1fa596b3c4191ec.webp",
+    "static/media/spider.webp": "/netflix-copy/static/media/spider.b11f42ad01bbdb96052b.webp",
+    "index.html": "/netflix-copy/index.html",
+    "main.70addd70.css.map": "/netflix-copy/static/css/main.70addd70.css.map",
+    "main.8bd24b1a.js.map": "/netflix-copy/static/js/main.8bd24b1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70addd70.css",
+    "static/js/main.8bd24b1a.js"
+  ]
+}
